@@ -58,8 +58,8 @@ def generate_main_index_html(base_dir):
     for item in sorted(os.listdir(base_dir)):
         item_path = os.path.join(base_dir, item)
         if os.path.isdir(item_path):
-            item_url = os.path.join("materias", item, f"{item}.html").replace("\\", "/")
-            html_content += f'<li><a href="/{item_url}">{item}</a></li>\n'
+            materia_url = os.path.join("materias", item, f"{item}.html").replace("\\", "/")
+            html_content += f'<li><a href="{BASE_URL}/{materia_url}">{item}</a></li>\n'
     
     html_content += """
         </ul>
