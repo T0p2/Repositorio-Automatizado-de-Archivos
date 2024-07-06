@@ -25,7 +25,7 @@ def generate_html_for_directory(path, relative_url):
         item_url = os.path.join(relative_url, item).replace("\\", "/")
         if os.path.isdir(item_path):
             # Enlace a subdirectorio
-            html_content += f'<li><a href="/{item_url}/{item}.html">{item}</a></li>\n'
+            html_content += f'<li><a href="{BASE_URL}/{item_url}/{item}.html">{item}</a></li>\n'
             generate_html_for_directory(item_path, item_url)
         else:
             # Enlace a archivo
