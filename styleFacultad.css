@@ -20,11 +20,11 @@ a {
 }
 
 a:visited {
-    color: rgb(94, 0, 97);
+    color: rgb(76, 1, 78);
 }
 
 a:hover, a:active {
-    color: rgb(0, 0, 0);
+    color: rgb(156, 15, 156);
 }
 
 header {
@@ -154,7 +154,7 @@ ul li:last-child {
 }
 
 ul li:hover {
-    background-color: #b8c6f3;
+    background-color: #34a9f7;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
