@@ -49,7 +49,7 @@ def generate_main_index_html(base_dir):
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://T0p2.github.io/repo-desarollo-web-automatizado/styleFacultad.css">
+        <link rel="stylesheet" href="https://T0p2.github.io/Repositorio-Automatizado-de-Archivos/styleFacultad.css">
         <title>Indice de Materias</title>
     </head>
     <body>
