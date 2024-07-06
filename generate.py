@@ -1,6 +1,6 @@
 import os
 
-BASE_URL = "https://T0p2.github.io/repo-de-archivos"
+BASE_URL = "https://T0p2.github.io/repo-desarollo-web-automatizado"
 
 def generate_html_for_directory(path, relative_url):
     dir_name = os.path.basename(path)
