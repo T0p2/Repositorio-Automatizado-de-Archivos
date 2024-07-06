@@ -12,6 +12,7 @@ def generate_html_for_directory(path, relative_url):
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="{BASE_URL}/styleFacultad.css">
         <title>{dir_name}</title>
     </head>
     <body>
@@ -48,10 +49,11 @@ def generate_main_index_html(base_dir):
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Índice de Materias</title>
+        <link rel="stylesheet" href="{BASE_URL}/styleFacultad.css">
+        <title>Indice de Materias</title>
     </head>
     <body>
-        <h1>Índice de Materias</h1>
+        <h1>Indice de Materias</h1>
         <ul>
     """
     
